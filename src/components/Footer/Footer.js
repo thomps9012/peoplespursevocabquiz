@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Footer.css";
 
-const Footer = props => {
+function Footer() {
     return (
         <footer>
             <p>&copy; Copyright 2020 | Developed by
