@@ -3,6 +3,7 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import FormControl from 'react-bootstrap/FormControl';
 
 function AnswerForm(){
+  return(
     <>
     <InputGroup className="mb-3">
     <InputGroup.Prepend>
@@ -14,5 +15,6 @@ function AnswerForm(){
     />
   </InputGroup>
     </>
+  )
 } 
 export default AnswerForm;

@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Navbar.css"
+import "./Header.css"
 import logo from '../../assets/logo-peoples-purse.png';
 
 function Header() {

@@ -2,6 +2,7 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 
 function NextQuestion(){
+  return(
     <>
   <div className="mb-2">
     <Button variant="warning" size="lg">
@@ -9,6 +10,7 @@ function NextQuestion(){
     </Button>{' '}
   </div>
 </>
+  )
 }
 
 export default NextQuestion;
