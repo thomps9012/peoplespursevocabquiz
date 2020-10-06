@@ -5,12 +5,13 @@ import Header from '../../Header/Header';
 import InputGroup from 'react-bootstrap/InputGroup';
 import FormControl from 'react-bootstrap/FormControl';
 import  Card  from 'react-bootstrap/Card';
-import { Button, Form } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
+import './Tax.css';
 
 function Tax() {
     const [value, setValue] = useState(' ');
     useEffect(() => {
-      localStorage.setItem('definition', value);
+      localStorage.setItem('tax definition', value);
     });
       console.log()
     
