@@ -1,16 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import TaxImg from '../../../assets/tax.png';
 import Footer from '../../Footer/Footer';
 import Header from '../../Header/Header';
 import InputGroup from 'react-bootstrap/InputGroup';
 import FormControl from 'react-bootstrap/FormControl';
 import  Card  from 'react-bootstrap/Card';
-import { Button } from 'react-bootstrap';
+import { Button, Form } from 'react-bootstrap';
 
 function Tax() {
     const [value, setValue] = useState(' ');
-    localStorage.setItem('definition', value);
-    console.log(setValue)
+    useEffect(() => {
+      localStorage.setItem('definition', value);
+    });
+      console.log()
+    
   
     return(
 <>
@@ -30,10 +33,10 @@ function Tax() {
     <FormControl
       aria-label="Default"
       aria-describedby="inputGroup-sizing-default"
-      onChange={setValue}
-    />
+      id="def"
+      />
   </InputGroup>
-    <Button variant="warning" size="lg" onClick={() => setValue()}>
+    <Button variant="warning" size="lg" onClick={() => setValue(document.getElementById('def').value)}>
     Next Vocab Word
       </Button>
   </Card.Body>
