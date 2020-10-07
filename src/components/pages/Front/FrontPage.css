@@ -1,13 +1,14 @@
 .NonProfitBanner {
-    background: url(../../assets/images/bg-dc.png);
+   
     background-size: cover;
     padding: 120px 100px;
     font-family: "Roboto Slab", serif;
+    background: url(../../../assets//bg-dc.png);
   }
   
   .NonProfitBanner h3 {
     font-size: 42px;
-    color: #fff;
+   
     width: 75%;
     text-align: center;
     margin: 0 auto 80px;
