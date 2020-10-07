@@ -8,10 +8,10 @@ import  Card  from 'react-bootstrap/Card';
 import { Button } from 'react-bootstrap';
 import './Executive.css';
 
-function Tax() {
+function Executive() {
     const [value, setValue] = useState(' ');
     useEffect(() => {
-      localStorage.setItem('fiscal year definition', value);
+      localStorage.setItem('executive branch definition', value);
     });
       console.log()
     
@@ -46,4 +46,4 @@ function Tax() {
 </>
     )
 }
-export default Tax;
+export default Executive;
