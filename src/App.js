@@ -7,7 +7,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Department from './components/pages/Dept/Department';
 // import Budget from './components/pages/Budget/Budget';
-import Citizen from './components/pages/Citizen/Citizen';
+// import Citizen from './components/pages/Citizen/Citizen';
+import Finished from './components/pages/Finish/Finished';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         {/* <Executive /> */}
         {/* <Department /> */}
         {/* <Budget /> */}
-        <Citizen />
+        {/* <Citizen /> */}
+        <Finished />
      
     </div>
   );

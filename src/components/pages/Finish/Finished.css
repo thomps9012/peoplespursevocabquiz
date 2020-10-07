@@ -1,0 +1,33 @@
+.NonProfitBanner {
+   
+    
+    
+    padding: 250px 50px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif, serif;
+    background: url(../../../assets/finished.gif);
+    background-size: 55%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .NonProfitBanner h3 {
+    font-size: 130px;
+    color: midnightblue;
+    -webkit-text-stroke: 3px ivory;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto 80px;
+  }
+  
+  .NonProfitBanner p {
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .NonProfitBanner strong {
+    display: block;
+    font-size: 42px;
+    font-weight: 700;
+  }
+  /*# sourceMappingURL=NonProfitBanner.css.map */

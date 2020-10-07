@@ -25,7 +25,7 @@ function Budget() {
     <Card.Title>Budget</Card.Title>
     <Card.Img src={BudgetPic} />
     <Card.Text>
-      A typical budget for an individual might consist of food, housing, transportation, healthcare and entertainment.
+      Sherry wanted to budget out her next month so that she could pay her rent, electric bills, and have enough money to eat out a few times.
     </Card.Text>
     <InputGroup className="mb-3">
     <InputGroup.Prepend>
