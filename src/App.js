@@ -5,7 +5,9 @@ import './App.css';
 // import Fiscal from './components/pages/Fiscal/FiscalYear';
 // import Executive from './components/pages/Exec/Executive';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Department from './components/pages/Dept/Department';
+// import Department from './components/pages/Dept/Department';
+// import Budget from './components/pages/Budget/Budget';
+import Citizen from './components/pages/Citizen/Citizen';
 
 function App() {
   return (
@@ -15,8 +17,9 @@ function App() {
         {/* <Tax /> */}
         {/* <Fiscal /> */}
         {/* <Executive /> */}
-        <Department />
-
+        {/* <Department /> */}
+        {/* <Budget /> */}
+        <Citizen />
      
     </div>
   );
